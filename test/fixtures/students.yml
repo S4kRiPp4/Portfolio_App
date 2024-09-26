@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: "Jesse"
+  last_name: "Johnstone"
+  school_email: "jbro@msudenver.edu"
+  major: "Computer Science"
+  minor: "Mathematics"
+  graduation_date: "2025-12-01"
+
+two:
+  first_name: "Frank"
+  last_name: "Tank"
+  school_email: "ftank@msudenver.edu"
+  major: "Alcohol"
+  minor: "Partying"
+  graduation_date: "2038-12-01"

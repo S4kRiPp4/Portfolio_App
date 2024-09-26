@@ -1,0 +1,20 @@
+<p style="color: green"><%= notice %></p>
+
+<% if @student.profile_picture.attached? %>
+  <div>
+    <%= image_tag @student.profile_picture, alt: "Profile Picture" %>
+  </div>
+<% else %>
+  <div>
+    <%= image_tag "4511601.jpg", alt: "Default Profile Picture" %>
+  </div>
+<% end %>
+
+<%= render @student %>
+
+<div>
+  <%= link_to "Edit this student", edit_student_path(@student) %> |
+  <%= link_to "Back to students", students_path %>
+
+  <%= button_to "Destroy this student", @student, method: :delete %>
+</div>
