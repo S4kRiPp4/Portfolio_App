@@ -4,8 +4,8 @@ class StudentTest < ActiveSupport::TestCase
   def setup
     @student = Student.new(
       first_name: "Joe",
-      last_name: "Doug",
-      school_email: "jdoug@msudenver.edu",
+      last_name: "Bro",
+      school_email: "jbro@msudenver.edu",
       major: "Computer Science",
       graduation_date: "2024-05-15"
     )
